@@ -53,9 +53,9 @@ here in the same task, exactly as required for `api-sdk-js`.
 ## Git workflow
 
 - **Branch per task.** Create a new branch off `master` before starting any task — don't commit directly to `master`.
-- **Keep your branch current.** Regularly merge `master` into your task branch as work progresses, so it doesn't drift.
-- **One branch per unit of work.** If the same task spans multiple sessions, reuse its existing branch rather than creating a new one each time.
-- **Ask before merging.** Never merge a task branch into `master` on your own judgment — ask for explicit permission first.
+- **One branch at a time.** If multiple sessions are working on different things here concurrently, don't spin up a branch per session — consolidate onto a single branch and tell the user that's what's happening.
+- **Always sync before committing.** Merge `master` into your task branch before every commit — the branch should never drift from `master`.
+- **Merging to `master` needs explicit permission.** Never merge a branch into `master` on your own judgment — open a PR (`gh pr create`) and ask the user before merging it. Merges to `master` go through GitHub, not a local `git merge`.
 
 
 ## Communication style
