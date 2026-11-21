@@ -47,8 +47,7 @@ here in the same task, exactly as required for `api-sdk-js`.
 - **Goal-driven execution.** Turn vague instructions into verifiable targets before writing a line. "Add validation" becomes "write tests for invalid inputs, then make them pass."
 ## Git
 
-- **NEVER commit in the agent's or Claude's name.** All commits must be authored solely by the human developer. Do not add `Co-Authored-By` trailers that name Claude or any AI agent — in shared/collaborative repositories this would falsely attribute work and obscure accountability.
-- **Committing and pushing is fine.** You may commit and push as part of normal work — no need to ask first each time. The only hard rule is authorship: commits sail under whatever author name/email git is already configured with (the human developer's), never an agent's identity.
+- **Committing and pushing is fine.** You may commit and push as part of normal work — no need to ask first each time.
 
 ## Git workflow
 
